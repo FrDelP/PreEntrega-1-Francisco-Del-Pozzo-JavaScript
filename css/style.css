@@ -1,16 +1,27 @@
+*{
+
+
+}
 .calculadora {
     display: block;
     margin: 0 auto;
     padding: 20px;
-    background-color: gray;
-    width: 300px;
+    background-color: rgb(0, 0, 0);
+    width: 350px;
     height: 500px;
     border-radius: 25px;
 }
 
 
 button{
+        cursor: pointer;
         display: block;
+        margin: 5px;
+        padding: 0;
+        border-radius: 32px;
+        font-size: 1.5em;
+        border: none;
+        box-shadow: 5px 5px 10px -3px rgb(114, 114, 114), -5px -5px 15px 3px rgb(61, 61, 61);
         height: 60px;
         width: 60px;
         font-size: 25px;
@@ -21,11 +32,12 @@ button{
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
-    width: 250px;
+    width: 300px;
     height: 100px;
     line-height: 100px;
-    background-color: white;
+    background-color: rgba(88, 88, 88, 0.384);
     border-radius: 25px;
     overflow-y: scroll;
+    color: white;
 
 }
